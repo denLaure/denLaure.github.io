@@ -7,6 +7,9 @@ $( document ).ready(function() {
         $("#publicationsList").load("publications.html");
         moveFromTop("#publicationsCard");
     });
+    $("#educationTab").click(function() {
+        moveFromTop("#educationCard");
+    });
 });
 
 moveFromTop = function(selector) {
