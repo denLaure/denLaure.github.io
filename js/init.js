@@ -3,6 +3,10 @@ $( document ).ready(function() {
     $("#aboutMeTab").click(function() {
         moveFromTop("#aboutMeCard");
     });
+    $("#publicationsTab").click(function() {
+        $("#publicationsList").load("publications.html");
+        moveFromTop("#publicationsCard");
+    });
 });
 
 moveFromTop = function(selector) {
