@@ -28,7 +28,7 @@ html, body {
 }
 
 .card {
-  margin-top: -200px;
+  margin-top: -20%;
 }
 
 .collection a.collection-item:not(.active):hover {
