@@ -3,12 +3,15 @@ $( document ).ready(function() {
     $("#aboutMeTab").click(function() {
         moveFromTop("#aboutMeCard");
     });
+    $("#educationTab").click(function() {
+        moveFromTop("#educationCard");
+    });
+    $("#projectsTab").click(function() {
+        moveFromTop("#projectsCard");
+    });
     $("#publicationsTab").click(function() {
         $("#publicationsList").load("publications.html");
         moveFromTop("#publicationsCard");
-    });
-    $("#educationTab").click(function() {
-        moveFromTop("#educationCard");
     });
 });
 
