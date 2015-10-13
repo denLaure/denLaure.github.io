@@ -4,6 +4,7 @@ $( document ).ready(function() {
         moveFromTop("#aboutMeCard");
     });
     $("#publicationsTab").click(function() {
+        $("#publicationsImage").html("<img src=\"images/book.jpg\">");
         $("#publicationsList").load("publications.html");
         moveFromTop("#publicationsCard");
     });
