@@ -6,6 +6,9 @@ $( document ).ready(function() {
     $("#educationTab").click(function() {
         moveFromTop("#educationCard");
     });
+    $("#skillsTab").click(function() {
+        moveFromTop("#skillsCard");
+    });
     $("#projectsTab").click(function() {
         moveFromTop("#projectsCard");
     });
