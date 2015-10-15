@@ -34,3 +34,24 @@ html, body {
 .collection a.collection-item:not(.active):hover {
   background-color: #eceff1; 
 }
+
+.styled-link-dark {
+  color: #546e7a;
+}
+.styled-link-dark:hover {
+  color: #263238;
+}
+
+.styled-link-light {
+  color: #cfd8dc;
+}
+.styled-link-light:hover {
+  color: #fff;
+}
+
+.modal-action {
+  color: #ffab40;
+}
+.modal-action:hover {
+  color: #ffd8a6; 
+}
