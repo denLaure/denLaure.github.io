@@ -55,3 +55,19 @@ html, body {
 .modal-action:hover {
   color: #ffd8a6; 
 }
+
+.latex sub {
+  vertical-align: -0.02ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.latex, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.02em;
+  margin-left: -0.36em;
+}
