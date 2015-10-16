@@ -13,6 +13,9 @@ $( document ).ready(function() {
     $("#projectsTab").click(function() {
         moveFromTop("#projectsCard");
     });
+    $("#awardsTab").click(function() {
+        moveFromTop("#awardsCard");
+    });
     $("#publicationsTab").click(function() {
         $("#publicationsList").load("publications.html");
         moveFromTop("#publicationsCard");
