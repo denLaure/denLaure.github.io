@@ -1,6 +1,9 @@
 $( document ).ready(function() {
     moveFromTop("#aboutMeCard");
     $('.modal-trigger').leanModal();
+    $("#publicationsLink").click(function() {
+        $("#publicationsTab").trigger("click");
+    });
     $("#aboutMeTab").click(function() {
         moveFromTop("#aboutMeCard");
     });
