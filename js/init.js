@@ -33,10 +33,16 @@ $( document ).ready(function() {
 });
 
 moveFromTop = function(selector) {
-    $(selector).velocity(
-        { translateY: "-200px"},
-        { duration: 0 });
-    $(selector).velocity(
-        { opacity: "1", translateY: "0"},
-        { duration: 900, easing: [60, 10] });
+    M.anime({
+        targets: selector,
+        translateY: -200,
+        duration: 0   
+    });
+    M.anime({
+        targets: selector,
+        opacity: 1,
+        translateY: 0,
+        duration: 900,
+        easing: 'easeOutExpo'
+    });
 };
