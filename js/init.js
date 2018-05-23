@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $('.modal-trigger').leanModal();
+    $('.modal').modal();
     $("#publicationsLink").click(function() {
         $("#publicationsTab").trigger("click");
     });
