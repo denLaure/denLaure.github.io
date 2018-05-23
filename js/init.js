@@ -1,5 +1,7 @@
 $( document ).ready(function() {
     $('.modal').modal();
+    $('.tabs').tabs();
+    $('.collapsible').collapsible();
     $("#publicationsLink").click(function() {
         $("#publicationsTab").trigger("click");
     });
